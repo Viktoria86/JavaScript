@@ -8,7 +8,7 @@ li.innerHTML = input.value;
   if(li.innerHTML>10) {
      li.className = "red";
 }
-  if(li.innerHTML<10) {
+  else if(li.innerHTML<10) {
      li.className = "green";
 }
   if(li.innerHTML==10) {
